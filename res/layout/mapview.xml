@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:id="@+id/mapView">
+    <org.osmdroid.views.MapView
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:enabled="true"
+        />
+     <SlidingDrawer android:id="@+id/slidingDrawer1"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:topOffset="20dip" android:handle="@+id/handle"
+                android:content="@+id/content"
+                android:orientation="horizontal">
+                <ImageView
+			            android:id="@+id/handle"
+			            android:src="@drawable/info"
+			            android:layout_width="wrap_content" 
+			            android:layout_height="wrap_content" />
+                <LinearLayout android:id="@+id/content"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:orientation="vertical" android:gravity="left"
+                        android:background="#95444444"
+                        android:paddingLeft="3dip">
+                        <TextView android:text="TextView"
+						android:id="@+id/dataTitulo"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:textStyle="bold">
+						</TextView>
+						<View
+						 android:layout_width="fill_parent"
+						 android:layout_height="2dp"
+						 android:background="@android:color/white" />
+                       <TextView android:text="TextView"
+						android:id="@+id/connectStat"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content">
+						</TextView>
+						<View
+						 android:layout_width="fill_parent"
+						 android:layout_height="1dp"
+						 android:background="@android:color/white" />
+                       
+						 <TextView android:text="TextView"
+						android:id="@+id/connectTipo"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content">
+						</TextView>
+						<View
+						 android:layout_width="fill_parent"
+						 android:layout_height="1dp"
+						 android:background="@android:color/white" />
+						 <TextView android:text="TextView"
+						android:id="@+id/lat"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content">
+						</TextView>
+						 <TextView android:text="TextView"
+						android:id="@+id/lon"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content">
+						</TextView>
+						<View
+						 android:layout_width="fill_parent"
+						 android:layout_height="1dp"
+						 android:background="@android:color/white" />
+						 <TextView android:text="TextView"
+						android:id="@+id/cam"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content">
+						</TextView>
+						<View
+						 android:layout_width="fill_parent"
+						 android:layout_height="1dp"
+						 android:background="@android:color/white" />
+						 <TextView android:text="TextView"
+						android:id="@+id/dist"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content">
+						</TextView>
+                        
+                </LinearLayout>
+        </SlidingDrawer>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="titulo">Alerte Mobile de Contre-Surveillance</string>
+    <string name="conDisp">Connexion disponible = </string>
+    <string name="conType">Type de connexion </string>
+    <string name="lblLatitud">Latitude</string>
+    <string name="lblLongitud">Longueur</string>
+    <string name="noData">(sans_donnée) en attendant le dispositif GPS</string>
+    <string name="btnAdd">Ajouter caméra</string>
+    <string name="btnRefresh">Rafraîchir</string>
+    <string name="camarasEncontrada">Caméras trouvées :</string>
+    <string name="msgNoGpS">Il n\'existe pas de coordonnées GPS mises à jour</string>
+    <string name="msgNoConection">&quot;Il n\'y a pas une connexion à réseau disponible. Impossible charger la base de données. Il essaye de nouveau&quot;</string>
+    <string name="camaraProxima">Caméra proche dans :</string>
+    <string name="DialogoAdd">Celles-ci pour ajouter une caméra dans les coordonnées :</string>
+    <string name="msgExitoAdd">Caméra ajoutée à succèsment </string>
+    <string name="msgFailAdd">Erreur dans la connexion. On n\'a pas pu ajouter la caméra</string>
+    <string name="btnAddCancel">Annuler</string>
+    <string name="lblTituloData">Données de l\'application</string>
+
+</resources>

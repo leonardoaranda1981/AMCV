@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="titulo">Mobile Counter-Surveillance Alarm</string>
+    <string name="conDisp">Connection Available = </string>
+    <string name="conType">Connection Type = </string>
+    <string name="lblLatitud">Latitude</string>
+    <string name="lblLongitud">Longitude</string>
+    <string name="noData">(no_data) Waitinf for GPS device</string>
+    <string name="btnAdd">Add Camera</string>
+    <string name="btnRefresh">Refresh</string>
+    <string name="camarasEncontrada">Cameras found: </string>
+    <string name="msgNoGpS">There is no updated GPS coordinates</string>
+    <string name="msgNoConection">There is no Network available. Impossible to load Data Base. Try again</string>
+    <string name="camaraProxima">Near camera in: </string>
+    <string name="DialogoAdd">You are about to add a camera in coordinates:</string>
+    <string name="msgExitoAdd">Camera added successfully</string>
+    <string name="msgFailAdd">Network connection error. \nit was not possible to add the camera</string>
+    <string name="btnAddCancel">Cancel</string>
+    <string name="lblTituloData">Application Data</string>
+
+</resources>

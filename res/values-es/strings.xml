@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="titulo">Alerta Movil de Contra Vigilancia</string>
+    <string name="conDisp">Conexión disponible = </string>
+    <string name="conType">Tipo de conexión</string>
+    <string name="lblLatitud">Latitud</string>
+    <string name="lblLongitud">Longitud</string>
+    <string name="noData">(sin_datos) Esperando el dispositivo GPS</string>
+    <string name="btnAdd">Añadir Cámara</string>
+    <string name="btnRefresh">Refrescar</string>
+    <string name="camarasEncontrada">Cámaras encontradas: </string>
+    <string name="msgNoGpS">No existen coordenadas GPS actualizadas</string>
+    <string name="msgNoConection">No hay conexión a red disponible. Imposible cargar la base de datos. Intenta de nuevo</string>
+    <string name="camaraProxima">Cámara próxima en: </string>
+    <string name="DialogoAdd">Estás por añadir una cámara en las coordenadas:</string>
+    <string name="msgExitoAdd">Cámara añadida exitosamente</string>
+    <string name="msgFailAdd">Error en la conexión. \nNo pudo agregarse la cámara</string>
+    <string name="btnAddCancel">Cancelar</string>
+    <string name="lblTituloData">Datos de la aplicación</string>
+
+</resources>
